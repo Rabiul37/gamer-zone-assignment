@@ -11,7 +11,9 @@ section{
     color:#534C64;
     font-size: 1.02rem;
     font-weight: 400;
+    text-decoration: none;
 }
+
 /* header style start from here */
 /* navigation menu style start from here */
 header{
@@ -22,6 +24,8 @@ nav{
 display:flex;
 justify-content: space-between;
 align-items: center;
+padding: 20px;
+box-shadow:2px 2px 13px #8080801f;
 }
 .nav-logo{
 display: flex;
@@ -268,3 +272,76 @@ top: 220px;
 right: 250px;
 }
 /* game-store style start here */
+.game-store-container{
+background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+display: flex;
+flex-wrap: wrap;
+gap:30px;
+padding:50px;
+justify-content:space-evenly;
+}
+.store-item{
+display: flex;
+align-items: center;
+gap:20px;
+}
+.store-item:hover{
+border:.5px solid #ff42a5;
+border-radius:35px;
+padding:10px 15px;
+color:#ff42a5;
+background-color: #fff;
+}
+.store-item:hover .description{
+    color:#ff42a5;
+}
+/* footer style start here */
+footer{
+background-color: #0B0223;
+height: 350px;
+color:#fff;
+padding: 50px;
+text-align: center;
+}
+
+.footer-title{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+    }
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    }
+.footer-logo img {
+    width:60px;
+    height: 40px;
+    }
+.footer-title{
+font-size: 2.8rem;
+font-weight: 700;
+color:#fff;
+}
+.footer-title span{
+color:#ff42a5;
+}
+.footer-container ul {
+list-style: none;
+display: flex;
+justify-content: center;
+gap:40px;
+}
+.footer-container ul li{
+
+}
+.footer-container > ul li > a{
+color:#fff;
+text-decoration: none;
+}
+.social{
+    font-size: 3rem;
+    margin:30px;
+}
