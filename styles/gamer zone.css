@@ -246,6 +246,7 @@ align-items: center;
 }
 .playhere-content{
 text-align: right;
+width:350px;
 }
 .playhere-title{
 font-size: 3rem;
